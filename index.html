@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe | Modern</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Start Menu -->
+  <div class="start-menu" id="start-menu">
+    <h1>Tic-Tac-Toe</h1>
+    <button id="single-player">Single Player</button>
+    <button id="multi-player">Multiplayer</button>
+  </div>
+
+  <!-- Game Container -->
+  <div class="game-container" id="game-container" style="display: none;">
+    <h1>Tic-Tac-Toe</h1>
+    <div class="scores">
+      <div>Player X: <span id="score-x">0</span></div>
+      <div>Player O: <span id="score-o">0</span></div>
+    </div>
+    <div class="status">Player X's Turn</div>
+    <div class="timer">Time Left: <span id="time-left">30</span>s</div>
+    <div class="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+    <button class="reset-button">Reset Game</button>
+    <button class="theme-toggle">Light Mode</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
