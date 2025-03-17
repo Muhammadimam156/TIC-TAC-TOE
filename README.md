@@ -105,7 +105,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Credits 👏
 
-- Developed by **[muhammad imam](https://github.com/Mahammadimam156/)**.
+- Developed by **[muhammad imam](https://github.com/Muhammadimam156/)**.
 - Inspired by classic Tic-Tac-Toe games.
 
 ---
