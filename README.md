@@ -69,7 +69,7 @@ tic-tac-toe/
 
 ## Future Improvements 🚀
 
-- Add **sound effects** for moves, wins, and ties.
+- Add **sound effects** for moves, wins, and ties
 - Implement a **difficulty level** for the CPU (easy, medium, hard).
 - Add **online multiplayer** functionality.
 - Improve the CPU's AI using the **Minimax algorithm**.
